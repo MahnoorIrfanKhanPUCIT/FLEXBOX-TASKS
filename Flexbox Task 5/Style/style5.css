@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+                    /* NAVBAR */
+
+#navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: transparent;
+    background-color: white;
+    color: black;
+    height: 75px;
+    width: 100vw;
+    align-items: center;
+}
+
+.nav-heading{
+    font-size: 2rem;
+    padding-top: 10px;
+}
+
+.items{
+    display: flex;
+    list-style: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.primary-text{
+    margin-left: 30px;
+}
+
+ul li a{
+    padding: 16px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+ul li a:hover{
+    border: none;
+    color: grey;
+}
+
+input{
+    height: 30px;
+    padding: 18px 10px;
+    margin-right: -10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-1{
+    padding: 10px 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-right: -50px;
+}
+
+.btn-1:hover{
+    color: grey;
+    background-color: #333;
+}
+
+.primary-text-heading{
+    font-size: 3rem;
+}
+
+.nav-heading{
+    margin-top: -20px;
+    margin-right: 250px;
+}
+
+/* SHOWCASE */
+
+#showcase{
+    background: url(../Images/background.jpg) no-repeat center center/cover fixed;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}
+
+#showcase a{
+    margin: 25px;
+}
+
+.dark-overlay1{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container-1{
+    height: 100vh;
+    background-color: transparent;
+    color: white;
+}
+
+.content{
+    padding-top: 80px;
+    text-align: left;
+    padding-left: 90px;
+    margin-right: 500px;
+}
+
+.content-heading{
+    font-size: 3rem;
+    padding-bottom: 10px;
+}
+
+.content-btn-1{
+    background-color: blueviolet;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 50px;
+    font-size: 1rem;
+}
+
+.content-btn-1:hover{
+    background-color: white;
+    color: #333;
+}
+
+.content-btn-2{
+    background-color: transparent;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-bottom: 2px solid white;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 50px;
+    font-size: 1rem;
+}
+
+.content-btn-2:hover{
+    background-color: white;
+    color: #333;
+}
+
+/* CONTAINER-2 */
+
+.container-2{
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    background-color: antiquewhite;
+}
+
+.car-logo{
+    width: 7%;
+    height: 70px;
+    border: none;
+    border-radius: 50%;
+}
+
+/* CONTAINER-3 */
+
+.container-3{
+    height: 70vh;
+    width: 100vw;
+    background-color: white;
+    color: black;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.about-us-img{
+    width: 400px;
+    height: 340px;
+    margin: 30px;
+    margin-top: 40px;
+}
+
+.about-us-heading{
+    font-size: 2.3rem;
+    padding-right: 200px;
+    margin-left: 50px;
+}
+
+.about-us-text{
+    font-size: 1.1rem;
+    padding-right: 200px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.about-us-btn{
+    background-color: blueviolet;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 1rem;
+}
+
+.about-us-btn:hover{
+    background-color: #333;
+    color: white;
+}
+
+.about-us-mini{
+    margin-left: 50px;
+    padding-top: 30px;
+}
+
+span{
+    color: blueviolet;
+    font-size: 1.1rem;
+}
+
+/* CONTAINER-4 */
+
+.container-4{
+    height: 110vh;
+    width: 100vw;
+    background: url(../Images/sec-background.jpg) center center/cover no-repeat ;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.sevices-heading{
+    font-size: 2.7rem;
+    padding: 40px 300px;
+}
+
+.services-text{
+    padding: 5px 100px;
+    font-size: 1.3rem;
+}
+
+/* TAGS */
+
+.tags{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: -160px;
+}
+
+.tag{
+    height: 350px;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid silver;
+    border-top: 10px solid blueviolet;
+    background-color: white;
+}
+
+.tag-img{
+    width: 40%;
+    margin: 20px;
+}
+
+.tag-heading{
+    font-size: 1.6rem;
+    margin: 20px 0;
+}
+
+/* COLLECTION */
+
+.container-5{
+    height: 100vh;
+    width: 100vw;
+    color: black;
+    background-color: white;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.p1{
+    width: 27%;
+    margin: 10px;
+}
+
+.collection-heading{
+    font-size: 2.7rem;
+    padding: 20px 0;
+    margin-bottom: 50px;
+}
+
+#G5{
+    height: 230px;
+}
+
+#G6{
+    height: 230px;
+}
+
+.last-btn{
+    background-color: blueviolet;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 100px;
+    margin-left: 500px;
+}
+
+.last-btn:hover{
+    background-color: #333;
+    color: white;
+}
+
+/* LAST PART */
+
+.container-6{
+    height: 80vh;
+    width: 90vw;
+    background: url(../Images/third-bg.jpg) no-repeat center/cover fixed;
+    margin-top: 80px;
+    margin-left: 50px;
+    border: none;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    height: 10vh;
+    width: 100vw;
+    padding-top: 20px;
+}
+
+.last-heading{
+    font-size: 2.7rem;
+    padding-top: 100px;
+}
+
+.last-text{
+    font-size: 1.35rem;
+    padding: 50px;
+}
+
+.btn-one{
+    background-color: #333;
+    color: white;
+    padding: 15px 30px;
+    margin: 10px;
+    border: 3px solid purple;
+    border-radius: 10px;
+}
+
+.btn-one:hover{
+    background-color: purple;
+    color: white;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.btn-two{
+    background-color: #333;
+    color: white;
+    padding: 15px 30px;
+    margin: 10px;
+    border: 3px solid purple;
+    border-radius: 10px;
+}
+
+.btn-two:hover{
+    background-color: purple;
+    color: white;
+    border: 3px solid white;
+    border-radius: 10px;
+}
